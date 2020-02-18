@@ -1,0 +1,28 @@
+# Data-Management
+Concepts and Processes of Data Management
+
+METADATA
+
+Identify if each data set in the assignment is structured, semi-structured or unstructured.
+Right below I have quickly redefined the three types of data sets to help us answer the questions
+Structured Data: Data refers to any data that can be contained neatly with a fixed field. These types of data sets have each their own data types, formats, and structures. Often managed using relational database management systems like ‘Structured Query Language’ (SQL).
+Unstructured: Is data that has no inherent structure, can not be so readily classified and fit into neat fields. These data sets are stored as different types of files. Examples include text documents, PDF, images, and videos.
+Semi-structured: Refers to a blend between both extremes. These data sets are a type of structured data but sometimes lack the strict data model structure. These data sets are not as organized as structured data, but are textual data with a discernible pattern, enabling parsing.
+Answer
+With this information, I would suggest that all datasets to be of the Structured natured because they are in a relational database. However, I would say that Expanded Sales to be the most Structured, while the Expanded Client to be ‘less’ Structured and Expanded Zip Code to be even more ‘less’ Structured.
+Explain the relationship between the Technical and Business metadata
+What is Metadata? What is Technical and Business Metadata?
+Metadata provides contextual information for business and technical data; it is a crucial part of data management. Metadata provides information about the context and usage of data for all parties interested in the data.
+Business Metadata describes the business definition of each data element. 
+Technical Metadata describes the technical properties of each data element.
+Answer
+The relationship between Technical and Business metadata data is that both provide contextual information about the data. Technical data describes more technical properties of the data such as tables, columns, names, data types, volumes, volatility, while Business metadata describes more business properties of the data such as names, rules, values definitions, attribute descriptions. 
+Explain why metadata is so important to understand the data for this use case?
+Answer
+Metadata is an invaluable resource to various users, an integral part of data management. Metadata increases the trust and confidence in information for faster and smarter decision-making responses to market changes and new opportunities. Metadata improves communications, bridges the gap between all business users. Metadata improves business decision making and reduces research time such that analysts are able to find/access and understand the information they need in a timely manner. Metadata help reduces redundant data, training costs, and risk of project failures. Additionally, metadata increases the value of strategic information by providing the user with context for the data, consequently aiding users in making more effective decisions.
+Explain how maintaining this metadata repository will assist in providing better quality data for analysis. 
+A metadata repository is a data collection of information containing the metadata. The purpose of a metadata repository is to provide consistent and reliable means of cases to metadata. These repositories can be stored in physical locations or maybe be on virtual machines, cloud-bases, with the ease of access from separate sources. Business and Technical Metadata is kept in such repositories. Data lineage, which provides a historical visualization of how data is moved and transformed, is also kept within such repositories. The repository supports aggregate navigation, query statistics collection, and end-user help with datastore content.  Metadata also supports documentation of source system data structures, transformations, business rules, ETL programs, data structure definition and operation, and warehouse data stores.
+Answer
+Maintaining such metadata repositories provides the users with better quality data for analysis. Data lineage provides historical metadata movement and transformation to help the user track down various questions or concerns. Such a repository improves efficiency and reduces confusion for the users.
+For the Business user, it helps in understanding the origin of the data, the history of the source systems and what transformations were applied. It can explain the business and technical definition of each data attribute. Furthermore, it can describe other names that the data attribute may have.
+For a data analyst, metadata repositories determine the impact of changes to data structures and the loading processes. Will provide notification of future changes and support of compliance audits. Can explain data lineage and how fields are calculated. Finally provide support for tracking proper execution of ETL processes.
