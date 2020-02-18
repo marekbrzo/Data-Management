@@ -1,0 +1,52 @@
+# Data-Management
+Concepts and Processes of Data Management
+
+DATA QUALITY
+
+Explain the importance of proper Data Quality in the Big Data environment
+Data quality is an assessment of the data’s fitness to serve a particular purpose. Quality of data is determined to be several factors like accuracy, completeness, reliability, relevance, and how current it is. Data is becoming more intricately linked with the operations of an organization, thus the emphasis on higher data quality has gained greater attention to those who seek to extract useful information.
+ANSWER
+Humans have been collecting data for a very long time, but in recent times the four V’s of big data have made it clear how important proper data quality is. With enormous volumes of data, applying proactive data quality methods are mandatory to keep the data in proper condition to address the analytical needs. Data quality is crucial to all processes and the reliability of intelligent reporting. Data quality is not only strictly related to one field because data serves the foundation of many fields, therefore it needs to be impeccable as unreliable data can cause harmful decisions. 
+Correcting data errors can be much more costly than getting the data correct the first time. Recently, a scientific paper published from McMaster, was scrutinized for incorrect data quality providing incorrect and harmful results to the authors; a retraction and a public statements. Correct data lineage allows for business and other data users to determine impact of change and other areas where the data impacts the business.
+
+Explain the Data Quality Concerns for Big Data
+Data Quality is one of the most if not the most important aspects of proper data analysis. The 4 V’s of data have made data quality more difficult in recent times. There are many concerns to data quality for big data, here are a few. Companies and firms may not have the knowledge or competencies to deal with big data. Imagine a mom and pop software shop having to deal with a Microsoft amount of data, most likely they would have no clue where to start. Data may also not be integrated cohesively, ie., structured and unstructured data is stored in its own manner; however, there is no connection between the two. In addition, the ability to interpret and assess unstructured data can be a challenge, and the quality of the data is often unproven.
+Manipulation of the data for data cleaning, rampant repurposing of the data and data rejuvenation are other concerns for big data. To fix these problems proper validating of the data is necessary, but, improper controls for validating and correcting of data can also cause concern. This too can hamper the data quality.
+Finally, how data is governed by the Data Governance can also impact quality. Existing information governance models will not be aligned to manage data quality for the newly acquired data. 
+
+Explain 5 major obstacles to data quality
+There are 5 major obstacles to data quality in the modern world. Data Interpretation, Data Volume, Data Control, Data Consistency and Data Re-fresh/Storage.
+Data Interpretation is the clarification or meanings associated with given data values. These values can be sourced from different locations and such values can be subtly different. Data can be used out of context which further raises questions on its quality. An example of this obstacle is temperature analysis: a data provider could give temperature reading in Fahrenheit while another provider could interpret Celsius. 
+With the modern age, volume, one of the Vs in big data, is growing at an astronomical rate. This Data Volume is a major obstacle to data quality.  The volume of this data may overwhelm the ability of existing systems and approaches. The proper approach to volume is necessary to ensure conformance with expectations. SQL queries or flat-file edits might not be able to parse data correctly, especially if the data is unstructured by nature, and in the modern data era, data is becoming more unstructured.
+Data control is the third major obstacle to data quality. Implementation for the validity or consistency of data is not always controlled, especially between diverse data sources. The analyses of both structured and unstructured data by different end-users show a lack of proper data control implementation.
+Data consistency is the fourth major obstacle to data quality. When performing data cleaning one must understand all input sources as inconsistencies may arise when cleansing the data. Such errors may make the traceability of the data difficult and question results. One example of such a scenario is the removal of NULLS, sometimes null are necessary for correct analysis. 
+The final obstacle to data quality is Data Re-fresh/storage. With low-cost storage provided by programs like Hadoop, it has enabled the large storage of easily accessible and much longer periods of time. The obstacle with such a useful tool is that large amounts of data captured for processing needs a defined strategy to archive data. Improper strategy can impact data analysis processes. An example would be, time to perform analysis; if you run a script with all the data in the Hadoop stacks then the process might take an unforeseeable length of time, which would hamper the data cycle. 
+
+Why is a rigorous Data Life Cycle Management especially important in Big Data?
+Data lifecycle management is a group of processes implemented in order to manage the enterprise's data from its definition, retrieval, and presentation of findings.
+There are six main stages of the Data Life Cycle:
+Acquisition & Storage: a collection of the data.
+Cleansing & Enriching: cleaning noise and data elements that may have failed checks, and transforming the data to an agreed business-neutral model.
+Data Analytics, Modeling: discovering meaningful patterns in data.
+Presentation: the communication of meaningful patterns in data which help drive fact-based business management decisions and actions.
+Archiving: archiving data for future usage. 
+Purging: Removal of every copy of a data item from the enterprise 
+
+
+ANSWER
+There is a rigorous data life cycle management in big data mainly because of how important data and data quality has become. Data and data quality is an ongoing cycle which is why we call it the data life cycle. Such a framework provides a summary and a detailed report on the quality of our data. We define rules for data acceptance, that help provides reporting capabilities to identify root causes. We set also thresholds for data acceptance which we then manually or by automation monitor our approaches. 
+Built on our profiling we are then able to implement business rules & applications, clean and enrich our data. Next, we can start to analyze data, determine root causes, and further identify the future direction of our data quality. Finally, with our ensured data integrity and analyses, we can communicate our findings, and re-enforce changes. Data has such a rigorous framework so that we can answer the four pillars, investigation, examination, remediation, communication.
+
+Explain the six main processes in maintaining Data Quality
+The six main process in maintain Data Quality are: Data Profiling, Data Cleansing, Data Enrichment, Data Integration, Data Monitoring, Data Compliance.
+Data Profiling is the initial process of gathering actionable and measurable information, data. Information gathered from data profiling is used to assess the overall data health and determine the direction of data quality initiatives.
+Data Cleansing is the process of detecting and correcting erroneous data and data anomalies both within and across sources and systems. Data cleansing can occur in both real-time data as data is entered or afterward as part of a data cleansing. Some techniques include: De-duping, Default values, Resetting Dates, Matching/merging.
+Data Enrichment is the process of enhancing data, by addition of information or changing the data in some manner to make it more useful. One way to enrich the data can be accomplished by adding missing values to the records based on data available from another application or a third party.
+Data Integration is the process of integrating the cleansed and enriched data into the source system. Combines processes and technologies so the analysts can make effective use of disparate data sources.  Unifying data from different databases and source systems. 
+Data Monitoring is the process to continuously evaluate the condition of enterprise data. These processes can be automated and/or manual. These activities are used to help strategize and focus data for future data improvements.
+Data Compliance is the ongoing process to ensure adherence of data to rules set by the organization, especially legal and regulatory business requirements. Data compliance includes 4 items: Controls, Audit, Regulatory Compliance, and Legal Compliance.
+
+Describe approaches to improving Data Quality
+To improve Data Quality, one should follow these six approaches. 
+Obtain the data quality guidelines from the business teaches, which will frame the analysis to assure the data usability and quality. Proactive monitoring of the data, with regards to quality before loading into an analytical environment. Implement reference data management to validate common data. Maintain a metadata consistency. Enable collaboration that encourages participation and sharing of the metadata, reducing misinterpretation. Finally, establishing proper Data Governance by defining data quality dimensions, specifying data quality rules, and managing a proper shared metadata.
+
