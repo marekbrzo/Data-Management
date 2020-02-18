@@ -1,0 +1,26 @@
+# Data-Management
+Concepts and Processes of Data Management
+
+DATA GOVERNANCE
+
+What is the focus of Data Governance?
+The objective of Data Governance is to substantially improve the values, quality, consistency, usability, security, and availability of business information across the organization through the effective management of organizational data assets. Data Governance is at the core of data management. Data governance focuses on organization and people that ensures proper definition, usage, and maintenance of key information across the enterprise. Data governance leverages specific processes and relevant technologies to improve the effectiveness of enterprise data.
+
+What is the importance of Data Governance to business and data analytics?
+
+The importance of Data Governance to business and data analytics can be attributed to two segments, Convergence and Set of Processes. Data Governance helps the convergence of data quality, management and policies, and all data in the organization. Data governance helps set processes to ensure important datasets are formally managed throughout the enterprise, ensures data can be trusted, make people accountable for low data quality
+Essentially Data Governance is about putting people and technology in place to fix and prevent issues with data so that the enterprise can become more efficient.
+Data Governance enables sustained and sanctioned data decision-making, support better decision through quality data, and improves operational integration between Business and IT. Data Governance also mandates the need for data users and regulators, builds standardized methodologies for data quality and issues remediation. Additionally, Data Governance develops standardized and repeatable processes for data management, reduce cost through coordination and integration of efforts. Finally, Data Governance promotes active participation in treating data as an enterprise asset. In conclusion, good governance is vital to success in any business dealing with big data, it encompasses consistent guidance, procedures, and clear management decision making.
+
+How will Data Governance enable better decision making?
+Data Governance will: Create standards for an enterprise business data dictionary and ensure adherence will establish functional group ownership and accountability for all company data, will establish data monitoring standards and ensure adherence, will create and maintain a framework for training and communication of the data governance standards and action will create and maintain enterprise standards for data, metrics, definitions, dimensions, hierarchies, and presentation including metric rationalization and ensure adherence, verify the security requirements are documented as part of BI methods and other data delivery methods, will remediate appropriate BI and application information.
+However Data Governance will not establish technical architecture components of the enterprise, execute data governance standards on non-key information, perform data monitoring and data cleansing, execute training and communication of data governance standards and actions, create content for an enterprise data dictionary for data metrics, definitions, dimension, hierarchies and presentation, manage security processes and standards or determine users’ security levels.
+Provide a summary of the main business and technical roles required in Data Governance?
+Data Governance encompasses four business and technical roles, Data Owner, Data Custodian, Data Stewards, and the Data User.
+Business Roles
+Data Owners define information and the requirements for information. Data Owners ensure the quality and availability of information and authorize access to information. 
+Data Stewards define policies and advise in the implementation of policies. Data Stewards also plan information requirements, ensure control of information, and coordinate delivery efforts.
+Technical Roles
+Data Custodian captures, stores, retains and disposes of information as per the Data Owners requirements. Data Custodian designs technical infrastructure to meet requirements and they ensure the security of the information.
+Data Users select the best information source and application to meet needs. Data Users also understand the information accessed, and comply with information management policies. Data users create data extracts to meet specific needs. Data Users can be in both business and technical roles.
+Even if we separate the roles into technical and business positions, the entire team is interwoven and work together to provide Data Governance. For example, the Data Owner and Data Custodian work together towards the delivery of information, the data Custodian communicates definitions and seeks improvement ideas with a Data User. The Data User and Data stewards communicate policies and seeks improvements, while the Data Steward and the Data owner provide input regarding the development of Enterprise Standards and Initiatives and educate on Data Governance requirements.
